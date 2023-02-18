@@ -1,6 +1,6 @@
 Package: com.level3tjg.redditolddiscovery
 Name: RedditOldDiscovery
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: Disable the new Reddit discovery tab
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.redditolddiscovery

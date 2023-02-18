@@ -15,6 +15,12 @@ static NSString *tabBarItemTitleOverride;
 }
 %end
 
+%hook _TtC34ExperimentKit_ExperimentManagement17ExperimentManager
+- (BOOL)isNewDiscoveryPageEnabled {
+  return NO;
+}
+%end
+
 %hook MainTabBarControllerImpl
 - (void)addCommunityTabBarItemToVC:(UIViewController *)VC {
   if ([self respondsToSelector:@selector
